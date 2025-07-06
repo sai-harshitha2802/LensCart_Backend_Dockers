@@ -38,7 +38,7 @@ jobs:
       - name: Build & Push Cart Docker Image
         uses: docker/build-push-action@v5
         with:
-          context: ./cart
+          context: .
           file: ./cart/Dockerfile
           push: true
           tags: harshitha2802/cart-service:latest
