@@ -21,7 +21,7 @@ jobs:
 
       - name: Build FinalOrder JAR
         run: |
-          cd finalorder-service
+          cd finalorderUpdated
           chmod +x mvnw
           ./mvnw clean package -DskipTests
           ls -l target
