@@ -4,8 +4,8 @@ FROM openjdk:17-jdk-slim
 # Create working directory
 WORKDIR /app
 
-# Copy the jar file
-COPY ./lenses/target/lenses-0.0.1-SNAPSHOT.jar app.jar
+# ✅ Correct this line
+COPY ./target/lenses-0.0.1-SNAPSHOT.jar app.jar
 
 
 # Expose the port your app runs on
