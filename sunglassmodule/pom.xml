@@ -10,7 +10,7 @@
 </parent>
 
 	<groupId>com.capg</groupId>
-	<artifactId>Sunglasses</artifactId>
+	<artifactId>sunglassmodule</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>sunglass</name>
 	<description>Demo project for Spring Boot</description>
