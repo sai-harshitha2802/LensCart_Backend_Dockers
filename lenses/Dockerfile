@@ -5,7 +5,8 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the jar file
-COPY target/lenses-0.0.1-SNAPSHOT.jar app.jar
+COPY ./target/lenses-0.0.1-SNAPSHOT.jar app.jar
+
 
 # Expose the port your app runs on
 EXPOSE 8082
