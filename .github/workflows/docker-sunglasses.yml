@@ -21,7 +21,7 @@ jobs:
 
       - name: Build Sunglasses JAR
         run: |
-          cd sunglasses
+          cd sunglassmodule
           chmod +x mvnw
           ./mvnw clean package -DskipTests
           ls -l target
