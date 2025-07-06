@@ -1,0 +1,24 @@
+2025-07-06T08:58:05.465+05:30  WARN 8836 --- [sunglassmodule] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18h34m12s317ms331µs500ns).
+2025-07-06T08:58:41.954+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T09:03:41.967+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T09:08:41.971+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T09:13:41.973+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T09:18:41.988+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T09:23:41.999+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T09:28:42.000+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T09:33:42.004+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T09:38:42.015+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T09:43:42.023+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T09:48:42.025+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T09:53:42.034+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T09:58:42.039+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T10:03:42.047+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T10:08:42.053+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T10:13:42.056+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T10:18:42.079+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T10:23:42.094+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T10:28:42.103+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T10:33:42.109+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T10:38:42.124+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T10:43:42.141+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T10:48:42.153+05:30  INFO 8836 --- [sunglassmodule] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
