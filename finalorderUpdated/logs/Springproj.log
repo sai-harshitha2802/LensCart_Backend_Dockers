@@ -29,3 +29,78 @@
 2025-07-06T11:17:41.353+05:30  INFO 7468 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2025-07-06T11:22:41.366+05:30  INFO 7468 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2025-07-06T11:27:41.369+05:30  INFO 7468 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T21:48:28.194+05:30  INFO 6644 --- [restartedMain] com.capg.FinalorderUpdatedApplication    : Starting FinalorderUpdatedApplication using Java 17.0.12 with PID 6644 (C:\Users\User\Downloads\Lenscart_BackendCode-dockerise\finalorderUpdated\target\classes started by User in C:\Users\User\Downloads\Lenscart_BackendCode-dockerise\finalorderUpdated)
+2025-07-06T21:48:28.198+05:30  INFO 6644 --- [restartedMain] com.capg.FinalorderUpdatedApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-07-06T21:48:28.294+05:30  INFO 6644 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-06T21:48:28.295+05:30  INFO 6644 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-06T21:48:31.742+05:30  INFO 6644 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-06T21:48:32.461+05:30  INFO 6644 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 696 ms. Found 2 JPA repository interfaces.
+2025-07-06T21:48:33.655+05:30  INFO 6644 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d94b03ac-2cdf-3d7f-a595-09c333092bf9
+2025-07-06T21:48:33.810+05:30  INFO 6644 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.capg.feign.CartFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-06T21:48:33.816+05:30  INFO 6644 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.capg.feign.ProductFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-06T21:48:35.166+05:30  INFO 6644 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2025-07-06T21:48:35.184+05:30  INFO 6644 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-06T21:48:35.185+05:30  INFO 6644 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2025-07-06T21:48:35.375+05:30  INFO 6644 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-06T21:48:35.376+05:30  INFO 6644 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7080 ms
+2025-07-06T21:48:37.973+05:30  INFO 6644 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-06T21:48:39.248+05:30  INFO 6644 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2025-07-06T21:48:39.253+05:30  INFO 6644 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-07-06T21:48:39.583+05:30  INFO 6644 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-07-06T21:48:40.011+05:30  INFO 6644 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-06T21:48:40.047+05:30  INFO 6644 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-06T21:48:40.873+05:30  INFO 6644 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20ec5e5b
+2025-07-06T21:48:40.877+05:30  INFO 6644 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-06T21:48:41.022+05:30  INFO 6644 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.24
+2025-07-06T21:48:41.908+05:30  INFO 6644 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-07-06T21:48:44.379+05:30  INFO 6644 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-07-06T21:48:44.562+05:30  INFO 6644 --- [restartedMain] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2025-07-06T21:48:44.565+05:30  INFO 6644 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06T21:48:45.932+05:30  WARN 6644 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-06T21:48:46.019+05:30  WARN 6644 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-07-06T21:48:46.226+05:30  INFO 6644 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'product-service' URL not provided. Will try picking an instance via load-balancing.
+2025-07-06T21:48:48.156+05:30  INFO 6644 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-07-06T21:48:49.407+05:30  WARN 6644 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-07-06T21:48:49.568+05:30  INFO 6644 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-07-06T21:48:49.692+05:30  INFO 6644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-07-06T21:48:49.701+05:30  INFO 6644 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-06T21:48:49.841+05:30  INFO 6644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-07-06T21:48:49.841+05:30  INFO 6644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-07-06T21:48:49.841+05:30  INFO 6644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-07-06T21:48:49.841+05:30  INFO 6644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-07-06T21:48:49.842+05:30  INFO 6644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-07-06T21:48:49.842+05:30  INFO 6644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-07-06T21:48:49.842+05:30  INFO 6644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-07-06T21:48:51.092+05:30  INFO 6644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-07-06T21:48:51.100+05:30  INFO 6644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-07-06T21:48:51.111+05:30  INFO 6644 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-06T21:48:51.122+05:30  INFO 6644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1751818731119 with initial instances count: 0
+2025-07-06T21:48:51.156+05:30  INFO 6644 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FINALORDERUPDATED with eureka with status UP
+2025-07-06T21:48:51.174+05:30  INFO 6644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1751818731174, current=UP, previous=STARTING]
+2025-07-06T21:48:54.175+05:30  INFO 6644 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FINALORDERUPDATED/localhost:finalorderUpdated:8088: registering service...
+2025-07-06T21:48:54.207+05:30  INFO 6644 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2025-07-06T21:48:54.208+05:30  INFO 6644 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8088
+2025-07-06T21:48:54.335+05:30  INFO 6644 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FINALORDERUPDATED/localhost:finalorderUpdated:8088 - registration status: 204
+2025-07-06T21:48:54.985+05:30  INFO 6644 --- [restartedMain] com.capg.FinalorderUpdatedApplication    : Started FinalorderUpdatedApplication in 30.057 seconds (process running for 32.768)
+2025-07-06T21:49:21.102+05:30  INFO 6644 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-07-06T21:49:21.104+05:30  INFO 6644 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-07-06T21:49:21.105+05:30  INFO 6644 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-07-06T21:49:21.105+05:30  INFO 6644 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-07-06T21:49:21.106+05:30  INFO 6644 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-07-06T21:49:21.106+05:30  INFO 6644 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2025-07-06T21:49:21.107+05:30  INFO 6644 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-07-06T21:49:21.148+05:30  INFO 6644 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-07-06T21:51:20.497+05:30  INFO 6644 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-07-06T21:51:20.499+05:30  INFO 6644 --- [RMI TCP Connection(13)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application FINALORDERUPDATED with eureka with status DOWN
+2025-07-06T21:51:20.499+05:30  INFO 6644 --- [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1751818880499, current=DOWN, previous=UP]
+2025-07-06T21:51:20.500+05:30  INFO 6644 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FINALORDERUPDATED/localhost:finalorderUpdated:8088: registering service...
+2025-07-06T21:51:20.516+05:30  INFO 6644 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FINALORDERUPDATED/localhost:finalorderUpdated:8088 - registration status: 204
+2025-07-06T21:51:20.516+05:30  INFO 6644 --- [RMI TCP Connection(13)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-07-06T21:51:20.528+05:30  INFO 6644 --- [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-06T21:51:20.532+05:30  INFO 6644 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-06T21:51:20.541+05:30  INFO 6644 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-06T21:51:20.542+05:30  INFO 6644 --- [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-07-06T21:51:23.555+05:30  WARN 6644 --- [DiscoveryClient-1] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2025-07-06T21:51:23.561+05:30  INFO 6644 --- [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-07-06T21:51:23.597+05:30  INFO 6644 --- [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FINALORDERUPDATED/localhost:finalorderUpdated:8088 - deregister  status: 200
+2025-07-06T21:51:23.620+05:30  INFO 6644 --- [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

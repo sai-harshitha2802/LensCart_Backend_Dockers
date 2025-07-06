@@ -10,7 +10,7 @@
 </parent>
 
 	<groupId>com.capg</groupId>
-	<artifactId>lenscart</artifactId>
+	<artifactId>Sunglasses</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>sunglass</name>
 	<description>Demo project for Spring Boot</description>
@@ -121,50 +121,34 @@
 
 	<build>
 		<plugins>
-		<plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.11.0</version> <!-- Ensure version is specified -->
-            <configuration>
-                <annotationProcessorPaths>
-                    <path>
-                        <groupId>org.projectlombok</groupId>
-                        <artifactId>lombok</artifactId>
-                        <version>1.18.30</version> <!-- ✅ Add a valid version -->
-                    </path>
-                </annotationProcessorPaths>
-            </configuration>
-        </plugin>
-
-        <plugin>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-maven-plugin</artifactId>
-        </plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.11.0</version> <!-- ✅ Make sure version is included -->
 				<configuration>
+					<source>17</source> <!-- ✅ Needed for Java 17 -->
+					<target>17</target>
 					<annotationProcessorPaths>
 						<path>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
+							<version>1.18.28</version>
 						</path>
 					</annotationProcessorPaths>
 				</configuration>
 			</plugin>
+
 			<plugin>
-				 <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.11.0</version> <!-- Ensure version is specified -->
-            <configuration>
-                <annotationProcessorPaths>
-                    <path>
-                        <groupId>org.projectlombok</groupId>
-                        <artifactId>lombok</artifactId>
-                        <version>1.18.30</version> <!-- ✅ Add a valid version -->
-                    </path>
-                </annotationProcessorPaths>
-            </configuration>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<excludes>
+						<exclude>
+							<groupId>org.projectlombok</groupId>
+							<artifactId>lombok</artifactId>
+						</exclude>
+					</excludes>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
