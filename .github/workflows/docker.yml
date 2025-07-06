@@ -27,7 +27,7 @@ jobs:
             ls -l target
       - name: Run container and test it
         run: |
-          docker-compose up -d
+          docker compose up -d
           sleep 15
           curl --fail http://localhost:8082/actuator/health || curl --fail http://localhost:8081/
         
