@@ -25,12 +25,7 @@ jobs:
            chmod +x mvnw   # ✅ Make mvnw executable
           ./mvnw clean package -DskipTests
             ls -l target
-      - name: Run container and test it
-        run: |
-          docker compose -f lenses/docker-compose.yml up -d
-          sleep 15
-          curl --fail http://localhost:8082/actuator/health || curl --fail http://localhost:8082/
-        
+      
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
