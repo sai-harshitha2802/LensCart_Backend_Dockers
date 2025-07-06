@@ -22,8 +22,10 @@ jobs:
       - name: Build JAR inside lenses/
         run: |
           cd lenses
+           chmod +x mvnw   # ✅ Make mvnw executable
           ./mvnw clean package -DskipTests
-          ls -l target
+            ls -l target
+
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
