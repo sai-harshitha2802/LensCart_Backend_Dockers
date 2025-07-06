@@ -39,6 +39,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: ./sunglasses/Dockerfile
+          file: ./sunglassmodule/Dockerfile
           push: true
           tags: harshitha2802/sunglasses-service:latest
