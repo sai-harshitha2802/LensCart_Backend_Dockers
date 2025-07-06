@@ -21,7 +21,7 @@ jobs:
 
       - name: Build Glass JAR
         run: |
-          cd glass
+          cd Glass
           chmod +x mvnw
           ./mvnw clean package -DskipTests
           ls -l target
