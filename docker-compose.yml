@@ -1,0 +1,140 @@
+version: '3.8'
+
+services:
+
+  eureka-server:
+    image: harshitha2802/eureka-server:latest
+    container_name: eureka-server
+    ports:
+      - "8761:8761"
+    networks:
+      - lenscart-net
+    environment:
+      - spring.profiles.active=docker
+
+  lenses-service:
+    image: harshitha2802/lenses-service:latest
+    container_name: lenses-service
+    ports:
+      - "8082:8082"
+    depends_on:
+      - eureka-server
+    networks:
+      - lenscart-net
+    environment:
+      - eureka.client.service-url.defaultZone=http://eureka-server:8761/eureka
+      - server.port=8082
+      - spring.datasource.url=jdbc:mysql://mysql-db:3306/lenses?createDatabaseIfNotExist=true
+      - spring.datasource.username=root
+      - spring.datasource.password=H@rdW0rk
+
+  frames-service:
+    image: harshitha2802/frames-service:latest
+    container_name: frames-service
+    ports:
+      - "8083:8083"
+    depends_on:
+      - eureka-server
+    networks:
+      - lenscart-net
+    environment:
+      - eureka.client.service-url.defaultZone=http://eureka-server:8761/eureka
+      - server.port=8083
+
+  glass-service:
+    image: harshitha2802/glass-service:latest
+    container_name: glass-service
+    ports:
+      - "8084:8084"
+    depends_on:
+      - eureka-server
+    networks:
+      - lenscart-net
+    environment:
+      - eureka.client.service-url.defaultZone=http://eureka-server:8761/eureka
+      - server.port=8084
+
+  customer-admin-service:
+    image: harshitha2802/customer-admin-service:latest
+    container_name: customer-admin-service
+    ports:
+      - "8085:8085"
+    depends_on:
+      - eureka-server
+    networks:
+      - lenscart-net
+    environment:
+      - eureka.client.service-url.defaultZone=http://eureka-server:8761/eureka
+      - server.port=8085
+
+  sunglasses-service:
+    image: harshitha2802/sunglasses-service:latest
+    container_name: sunglasses-service
+    ports:
+      - "8086:8086"
+    depends_on:
+      - eureka-server
+    networks:
+      - lenscart-net
+    environment:
+      - eureka.client.service-url.defaultZone=http://eureka-server:8761/eureka
+      - server.port=8086
+
+  cart-service:
+    image: harshitha2802/cart-service:latest
+    container_name: cart-service
+    ports:
+      - "8087:8087"
+    depends_on:
+      - eureka-server
+    networks:
+      - lenscart-net
+    environment:
+      - eureka.client.service-url.defaultZone=http://eureka-server:8761/eureka
+      - server.port=8087
+
+  finalorder-service:
+    image: harshitha2802/finalorder-service:latest
+    container_name: finalorder-service
+    ports:
+      - "8088:8088"
+    depends_on:
+      - eureka-server
+    networks:
+      - lenscart-net
+    environment:
+      - eureka.client.service-url.defaultZone=http://eureka-server:8761/eureka
+      - server.port=8088
+
+  product-service:
+    image: harshitha2802/product-service:latest
+    container_name: product-service
+    ports:
+      - "8089:8089"
+    depends_on:
+      - eureka-server
+    networks:
+      - lenscart-net
+    environment:
+      - eureka.client.service-url.defaultZone=http://eureka-server:8761/eureka
+      - server.port=8089
+
+  mysql-db:
+    image: mysql:8.0
+    container_name: mysql-db
+    restart: always
+    ports:
+      - "3306:3306"
+    networks:
+      - lenscart-net
+    environment:
+      MYSQL_ROOT_PASSWORD: H@rdW0rk
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+networks:
+  lenscart-net:
+    driver: bridge
+
+volumes:
+  mysql-data:
