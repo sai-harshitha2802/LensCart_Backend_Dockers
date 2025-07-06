@@ -3,7 +3,7 @@ name: Build and Push Docker Image (Lenses)
 on:
   push:
     branches:
-      - master  # or "main" if your default branch is main
+      - master  # or main
 
 jobs:
   build:
@@ -13,19 +13,17 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v3
 
-      - name: Set up JDK 17
+      - name: Set up Java 17
         uses: actions/setup-java@v3
         with:
-          distribution: 'temurin'
           java-version: '17'
+          distribution: 'temurin'
 
-      - name: Build JAR with Maven
-        working-directory: ./lenses
-        run: mvn clean package -DskipTests
-
-      - name: Check target contents
-        run: ls -la ./lenses/target
-
+      - name: Build JAR inside lenses/
+        run: |
+          cd lenses
+          ./mvnw clean package -DskipTests
+          ls -l target
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
