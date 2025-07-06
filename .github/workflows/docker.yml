@@ -29,7 +29,7 @@ jobs:
         run: |
           docker compose up -d
           sleep 15
-          curl --fail http://localhost:8082/actuator/health || curl --fail http://localhost:8081/
+          curl --fail http://localhost:8082/actuator/health || curl --fail http://localhost:8082/
         
 
       - name: Set up Docker Buildx
