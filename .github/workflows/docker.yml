@@ -20,7 +20,8 @@ jobs:
           java-version: '17'
 
       - name: Build JAR with Maven
-        run: mvn -f ./lenses/pom.xml clean package -DskipTests
+        working-directory: ./lenses
+        run: mvn clean package -DskipTests
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
