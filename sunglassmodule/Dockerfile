@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the built JAR file into the container
-COPY ./Sunglasses/target/Sunglasses-0.0.1-SNAPSHOT.jar app.jar
+COPY ./sunglassmodule/target/Sunglasses-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose the application port
 EXPOSE 8086
