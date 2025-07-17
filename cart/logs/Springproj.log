@@ -1010,3 +1010,5 @@ Caused by: java.net.UnknownHostException: mysql
 2025-07-17T17:10:57.401+05:30  INFO 12772 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART/DESKTOP-ODPQQQ5.bbrouter:cart:8087 - registration status: 204
 2025-07-17T17:10:57.573+05:30  INFO 12772 --- [restartedMain] com.project2.CartApplication             : Started CartApplication in 2.088 seconds (process running for 65.335)
 2025-07-17T17:10:57.575+05:30  INFO 12772 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-17T17:15:57.336+05:30  INFO 12772 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-17T17:20:57.341+05:30  INFO 12772 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
