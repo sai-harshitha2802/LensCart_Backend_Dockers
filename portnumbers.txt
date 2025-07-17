@@ -1,0 +1,9 @@
+cart - 8087
+customer-admin-service - 8085
+eureka - 8761
+finalorderUpdated - 8088
+frames - 8083
+Glass - 8084
+lenses - 8082
+product-service - 8089
+Sunglasses - 8086
